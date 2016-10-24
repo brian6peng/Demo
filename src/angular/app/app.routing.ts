@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeroesComponent }      from './heroes.component';
 import { DashboardComponent }   from './dashboard.component'
 import { HeroDetailComponent }   from './hero-Detail.component'
+import { PromiseComponent }  from './promise.component'
 
 const appRoutes: Routes = [
     {
@@ -17,6 +18,10 @@ const appRoutes: Routes = [
     {
         path: 'dashboard',
         component: DashboardComponent
+    },
+    {
+        path: 'promise',
+        component: PromiseComponent
     },
     {
         path: 'detail/:id',
